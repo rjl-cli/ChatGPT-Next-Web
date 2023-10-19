@@ -77,12 +77,7 @@ const es: PartialLocaleType = {
         "Agregar forzosamente un prompt de sistema simulado de ChatGPT al comienzo de la lista de mensajes en cada solicitud",
     },
     Update: {
-      Version: (x: string) => `Versión: ${x}`,
-      IsLatest: "Última versión",
-      CheckUpdate: "Buscar actualizaciones",
-      IsChecking: "Buscando actualizaciones...",
-      FoundUpdate: (x: string) => `Se encontró una nueva versión: ${x}`,
-      GoToUpdate: "Actualizar",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "Tecla de envío",
     Theme: "Tema",

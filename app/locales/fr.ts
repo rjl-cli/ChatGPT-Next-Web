@@ -121,12 +121,7 @@ const fr: PartialLocaleType = {
       SubTitle: "Le message le plus récent sera ajouté à ce template.",
     },
     Update: {
-      Version: (x: string) => `Version : ${x}`,
-      IsLatest: "Dernière version",
-      CheckUpdate: "Vérifier la mise à jour",
-      IsChecking: "Vérification de la mise à jour...",
-      FoundUpdate: (x: string) => `Nouvelle version disponible : ${x}`,
-      GoToUpdate: "Mise à jour",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "Clé d'envoi",
     Theme: "Thème",

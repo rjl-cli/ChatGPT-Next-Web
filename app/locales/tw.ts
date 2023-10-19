@@ -74,12 +74,7 @@ const tw: PartialLocaleType = {
       SubTitle: "強制在每個請求的訊息列表開頭新增一個模擬 ChatGPT 的系統提示",
     },
     Update: {
-      Version: (x: string) => `目前版本：${x}`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "檢查更新",
-      IsChecking: "正在檢查更新...",
-      FoundUpdate: (x: string) => `發現新版本：${x}`,
-      GoToUpdate: "前往更新",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "傳送鍵",
     Theme: "主題",

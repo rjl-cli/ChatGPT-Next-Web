@@ -20,7 +20,8 @@ const jp: PartialLocaleType = {
       Stop: "停止",
       Retry: "リトライ",
       Pin: "ピン",
-      PinToastContent: "コンテキストプロンプトに1つのメッセージをピン留めしました",
+      PinToastContent:
+        "コンテキストプロンプトに1つのメッセージをピン留めしました",
       PinToastAction: "表示",
       Delete: "削除",
       Edit: "編集",
@@ -98,12 +99,7 @@ const jp: PartialLocaleType = {
       SubTitle: "新規入力がこのテンプレートに埋め込まれます",
     },
     Update: {
-      Version: (x: string) => `現在のバージョン：${x}`,
-      IsLatest: "最新バージョンです",
-      CheckUpdate: "アップデートを確認",
-      IsChecking: "アップデートを確認しています...",
-      FoundUpdate: (x: string) => `新しいバージョンが見つかりました：${x}`,
-      GoToUpdate: "更新する",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "送信キー",
     Theme: "テーマ",

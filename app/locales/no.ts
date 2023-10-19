@@ -72,12 +72,7 @@ const no: PartialLocaleType = {
         "Tving tillegg av en simulert ChatGPT-systemprompt i begynnelsen av meldingslisten for hver forespørsel",
     },
     Update: {
-      Version: (x: string) => `Versjon: ${x}`,
-      IsLatest: "Siste versjon",
-      CheckUpdate: "Se etter oppdatering",
-      IsChecking: "Ser etter oppdatering ...",
-      FoundUpdate: (x: string) => `Fant ny versjon: ${x}`,
-      GoToUpdate: "Oppdater",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "Send nøkkel",
     Theme: "Tema",

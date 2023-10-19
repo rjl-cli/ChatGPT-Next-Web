@@ -121,12 +121,7 @@ const ar: PartialLocaleType = {
       SubTitle: "سيتم ملء أحدث رسالة في هذا النموذج",
     },
     Update: {
-      Version: (x: string) => ` الإصدار: ${x}`,
-      IsLatest: "أحدث إصدار",
-      CheckUpdate: "التحقق من التحديث",
-      IsChecking: "جارٍ التحقق من التحديث...",
-      FoundUpdate: (x: string) => ` تم العثور على إصدار جديد: ${x}`,
-      GoToUpdate: "التحديث",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "مفتاح الإرسال",
     Theme: "السمة",

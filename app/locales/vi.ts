@@ -77,12 +77,7 @@ const vi: PartialLocaleType = {
         "Bắt buộc thêm một prompt hệ thống giả lập ChatGPT ở đầu danh sách tin nhắn cho mỗi yêu cầu",
     },
     Update: {
-      Version: (x: string) => `Phiên bản: ${x}`,
-      IsLatest: "Phiên bản mới nhất",
-      CheckUpdate: "Kiểm tra bản cập nhật",
-      IsChecking: "Kiểm tra bản cập nhật...",
-      FoundUpdate: (x: string) => `Phát hiện phiên bản mới: ${x}`,
-      GoToUpdate: "Cập nhật",
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "Phím gửi",
     Theme: "Theme",

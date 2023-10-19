@@ -161,7 +161,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: () => `Version: 1.0.0`,
     },
     SendKey: "发送键",
     Theme: "主题",

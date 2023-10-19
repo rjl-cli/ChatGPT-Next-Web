@@ -4,8 +4,9 @@ import { PartialLocaleType } from "./index";
 const id: PartialLocaleType = {
   WIP: "Coming Soon...",
   Error: {
-    Unauthorized: "Akses tidak diizinkan, silakan masukkan kode akses atau masukkan kunci API OpenAI Anda. di halaman [autentikasi](/#/auth) atau di halaman [Pengaturan](/#/settings).",
-  },  
+    Unauthorized:
+      "Akses tidak diizinkan, silakan masukkan kode akses atau masukkan kunci API OpenAI Anda. di halaman [autentikasi](/#/auth) atau di halaman [Pengaturan](/#/settings).",
+  },
   Auth: {
     Title: "Diperlukan Kode Akses",
     Tips: "Masukkan kode akses di bawah",
@@ -150,12 +151,7 @@ const id: PartialLocaleType = {
     },
 
     Update: {
-      Version: (x: string) => `Version: ${x}`,
-      IsLatest: "Versi terbaru",
-      CheckUpdate: "Periksa Pembaruan",
-      IsChecking: "Memeriksa pembaruan...",
-      FoundUpdate: (x: string) => `Versi terbaru ditemukan: ${x}`,
-      GoToUpdate: "Perbarui Sekarang",
+      Version: () => `Version: 1.0.0`,
     },
     AutoGenerateTitle: {
       Title: "Hasilkan Judul Otomatis",

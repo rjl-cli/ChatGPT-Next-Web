@@ -670,9 +670,7 @@ export function Settings() {
             </Popover>
           </ListItem>
 
-          <ListItem
-            title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
-          ></ListItem>
+          <ListItem title={Locale.Settings.Update.Version()}></ListItem>
 
           <ListItem title={Locale.Settings.SendKey}>
             <Select
